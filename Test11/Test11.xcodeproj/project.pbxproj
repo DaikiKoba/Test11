@@ -14,6 +14,8 @@
 		83A37C532410C5DB00CF6E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A37C512410C5DB00CF6E11 /* LaunchScreen.storyboard */; };
 		83A37C5E2410C5DB00CF6E11 /* Test11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A37C5D2410C5DB00CF6E11 /* Test11Tests.swift */; };
 		83A37C692410C5DB00CF6E11 /* Test11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A37C682410C5DB00CF6E11 /* Test11UITests.swift */; };
+		83A37C772410CF4B00CF6E11 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A37C762410CF4B00CF6E11 /* ExtensionUIView.swift */; };
+		83A37C792410CFF900CF6E11 /* ExtensionCGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A37C782410CFF900CF6E11 /* ExtensionCGRect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		83A37C642410C5DB00CF6E11 /* Test11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A37C682410C5DB00CF6E11 /* Test11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test11UITests.swift; sourceTree = "<group>"; };
 		83A37C6A2410C5DB00CF6E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A37C762410CF4B00CF6E11 /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		83A37C782410CFF900CF6E11 /* ExtensionCGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCGRect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				83A37C4F2410C5DB00CF6E11 /* Assets.xcassets */,
 				83A37C512410C5DB00CF6E11 /* LaunchScreen.storyboard */,
 				83A37C542410C5DB00CF6E11 /* Info.plist */,
+				83A37C762410CF4B00CF6E11 /* ExtensionUIView.swift */,
+				83A37C782410CFF900CF6E11 /* ExtensionCGRect.swift */,
 			);
 			path = Test11;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A37C772410CF4B00CF6E11 /* ExtensionUIView.swift in Sources */,
+				83A37C792410CFF900CF6E11 /* ExtensionCGRect.swift in Sources */,
 				83A37C4B2410C5D900CF6E11 /* ViewController.swift in Sources */,
 				83A37C492410C5D900CF6E11 /* AppDelegate.swift in Sources */,
 			);
