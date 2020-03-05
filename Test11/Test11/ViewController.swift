@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    override func loadView() {
+        super.loadView()
+        // ナビゲーションバー非表示
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
